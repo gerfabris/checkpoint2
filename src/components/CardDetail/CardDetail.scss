@@ -1,0 +1,75 @@
+@import '../styles/variables';
+
+.section__cardDetail{
+    @include flex-column-center;
+    padding: 2em;
+}
+
+.itemDetail{
+    @include flex-column-center;
+    @include box-shadow-10pt;
+    width: 80%;
+    padding: 2em;
+    margin-bottom: 1.5em;
+    flex-direction: row;
+    p{
+        font-weight: bold;
+        color: $color-secundario
+    }
+}
+.itemDetail__containerRow{
+    @include flex-row-wrap-center;
+    @include margin__Espaciado(1em,1em);
+    justify-content: space-evenly;
+    width: 100%;
+}
+.itemDetail__container{
+    @include flex-column-center;
+    width: 45%;
+    margin-right: 2em;
+    padding: 1em;
+}
+.itemDetail__img{
+    @include margin__Espaciado(0em,1em);
+    width: 80%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 2em
+}
+.itemDetail__price{
+    @include margin__Espaciado(1em,1em);
+    font-weight: bold;
+}
+.itemDetail__description{
+    @include margin__Espaciado(0em,1em);
+}
+.itemDetail__features{
+    @include margin__Espaciado(0em,1em);
+}
+.itemDetail__title{
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    color: $color-background;
+    text-shadow: 3px 3px 3px $color-secundario
+
+}
+.itemDetail__btn{
+    @include btn-principalHover;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: .5em;
+    color: $color-secundario;
+
+}
+
+@media screen and (max-width: 990px) {
+    .itemDetail{
+        flex-direction: column;
+    }
+    .itemDetail__img{
+        margin-right: 0;
+        margin-bottom: 1.5em;
+    }
+}

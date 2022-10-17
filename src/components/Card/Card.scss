@@ -1,0 +1,25 @@
+@import '../styles/variables';
+
+.card{
+    @include box-shadow-10pt;
+    @include margin__Espaciado(2em,2em);
+    width: 20rem;
+    height: 35rem;
+    padding: 1em;
+    margin-right: 1em;
+    background-color: none;
+    //content
+    @include flex-column-center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.btn__card{
+    background-color: $color-principal;
+    border: $color-principal 2px solid;
+    transition: .5s all ease-in-out;
+    &:hover{
+        background-color: $color-hover;
+        border: $color-hover 2px solid;
+    }
+}

@@ -1,0 +1,9 @@
+@import '../styles/variables';
+
+@media screen and (max-width: 780px) {
+    .email-table,
+    .city-table,
+    .company-table {
+        display: none;
+    }
+}
