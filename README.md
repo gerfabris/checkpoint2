@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+<h1 align="center">  Checkpoint 2 - Skill Factory  </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Se realizan llamadas a diferentes API's para mostrar su información de diferentes maneras, utilizando fetch y axios y mostrándolo como Cards o Table. 
+También el manejo de datos controlados a través de un formulario.
 
-In the project directory, you can run:
+![wvahOV2](https://user-images.githubusercontent.com/23712018/189548701-0af46e8b-1a98-487b-ba3e-6bd03732353a.jpeg)
 
-### `npm start`
+<p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+</p>
+   
+## :hammer:Funcionalidades del proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `Funcionalidad 1`: Manejo de Formulario para crear Comentario y enviar información al DOM a través de otro componente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `Funcionalidad 2`: Muestra de una tabla con los datos de usuarios pasados a través de una API.
 
-### `npm test`
+- `Funcionalidad 3`: Muestra de una galeria de cards de Rick and Morty pasadas a través de una API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   https://www.loom.com/share/53288bc8a5c54ca3bc1c2abe8af825ee
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+\## 🛠️ Abre y ejecuta el proyecto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+BreackPoint2 requires [React.js](https://es.reactjs.org/) v18+ to run.
 
-### `npm run eject`
+Install the dependencies and devDependencies and start the server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+cd BreackPoint2
+npm install
+React app
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For production environments...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+npm install --production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
